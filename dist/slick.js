@@ -160,3 +160,5 @@ angular.module('slick', []).directive('slick', [
     };
   }
 ]);
+
+module.exports = angular.module('slick').name;
